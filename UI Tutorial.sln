@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernDesign", "ModernDesign\ModernDesign.csproj", "{0EFEBD63-1361-445D-AF2B-6D31A9C9B06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUI", "ModernUI\ModernUI.csproj", "{2DDDBCB8-C58E-4A99-88F1-9EF92468B7C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperChat", "SuperChat\SuperChat.csproj", "{8AD133C8-A9E7-47B5-8471-43B23D3E4F55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatApp", "ChatApp", "{D40F9963-EB1D-4470-8AD9-FA47F9C2CF63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatClient", "ChatClient\ChatClient.csproj", "{F7F60DB4-54FE-4202-A593-ADD1C33DF00F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatServer", "ChatServer\ChatServer.csproj", "{FC289728-D261-4183-B549-40548C20059B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotSpotify", "NotSpotify\NotSpotify.csproj", "{15224B08-FC74-44DF-8E26-7998D72F7E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanUI", "CleanUI\CleanUI.csproj", "{A7135419-2546-4BF5-B45F-DFE9449AFE7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EFEBD63-1361-445D-AF2B-6D31A9C9B06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFEBD63-1361-445D-AF2B-6D31A9C9B06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFEBD63-1361-445D-AF2B-6D31A9C9B06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFEBD63-1361-445D-AF2B-6D31A9C9B06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDDBCB8-C58E-4A99-88F1-9EF92468B7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDDBCB8-C58E-4A99-88F1-9EF92468B7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDDBCB8-C58E-4A99-88F1-9EF92468B7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDDBCB8-C58E-4A99-88F1-9EF92468B7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD133C8-A9E7-47B5-8471-43B23D3E4F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD133C8-A9E7-47B5-8471-43B23D3E4F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD133C8-A9E7-47B5-8471-43B23D3E4F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD133C8-A9E7-47B5-8471-43B23D3E4F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F60DB4-54FE-4202-A593-ADD1C33DF00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F60DB4-54FE-4202-A593-ADD1C33DF00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F60DB4-54FE-4202-A593-ADD1C33DF00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F60DB4-54FE-4202-A593-ADD1C33DF00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC289728-D261-4183-B549-40548C20059B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC289728-D261-4183-B549-40548C20059B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC289728-D261-4183-B549-40548C20059B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC289728-D261-4183-B549-40548C20059B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15224B08-FC74-44DF-8E26-7998D72F7E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15224B08-FC74-44DF-8E26-7998D72F7E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15224B08-FC74-44DF-8E26-7998D72F7E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15224B08-FC74-44DF-8E26-7998D72F7E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7F60DB4-54FE-4202-A593-ADD1C33DF00F} = {D40F9963-EB1D-4470-8AD9-FA47F9C2CF63}
+		{FC289728-D261-4183-B549-40548C20059B} = {D40F9963-EB1D-4470-8AD9-FA47F9C2CF63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3235C42-F20E-4C95-BE60-9A7A55A5512C}
+	EndGlobalSection
+EndGlobal

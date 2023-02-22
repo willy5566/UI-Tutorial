@@ -1,0 +1,74 @@
+﻿<Window x:Class="ModernDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:ModernDesign.MVVM.ViewModel"
+        xmlns:local="clr-namespace:ModernDesign"
+        mc:Ignorable="d"
+        Height="600" Width="920"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    <Border Background="#272537"
+            CornerRadius="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Elvsian"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Foreground="White"
+                       FontSize="22"
+                       FontFamily="/Fonts/#Poppins"
+                       Margin=" 20 0 0 0"/>
+
+            <StackPanel Grid.Column="0" Grid.Row="1">
+                <RadioButton Content="Home"
+                             Height="50"
+                             Foreground="White"
+                             Style="{StaticResource MenuBottonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
+                <RadioButton Content="Discovery"
+                             Height="50"
+                             Foreground="White"
+                             Style="{StaticResource MenuBottonTheme}"
+                             Command="{Binding DiscoveryViewCommand}"/>
+                <RadioButton Content="Featured"
+                             Height="50"
+                             Foreground="White"
+                             Style="{StaticResource MenuBottonTheme}"/>
+                
+            </StackPanel>
+
+            <TextBox Width="250"
+                     Height="40"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="5"
+                     Grid.Column="1"
+                     Style="{StaticResource ModernTextBox}"/>
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10"
+                            Content="{Binding CurrentView}">
+                
+            </ContentControl>
+        </Grid>
+    </Border>
+</Window>
