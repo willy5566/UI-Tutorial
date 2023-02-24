@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotSpotify", "NotSpotify\No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanUI", "CleanUI\CleanUI.csproj", "{A7135419-2546-4BF5-B45F-DFE9449AFE7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernVPN", "ModernVPN\ModernVPN.csproj", "{8C5DA97E-3439-406F-B819-95A8268B52A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7135419-2546-4BF5-B45F-DFE9449AFE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5DA97E-3439-406F-B819-95A8268B52A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5DA97E-3439-406F-B819-95A8268B52A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5DA97E-3439-406F-B819-95A8268B52A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5DA97E-3439-406F-B819-95A8268B52A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

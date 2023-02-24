@@ -24,7 +24,7 @@ namespace NotSpotify.MVVM.ViewModel
         void PopulateCollection()
         {
             var client = new RestClient();
-            client.Authenticator = new OAuth2AuthorizationRequestHeaderAuthenticator("", "Bearer");
+            client.Authenticator = new OAuth2AuthorizationRequestHeaderAuthenticator("Your token", "Bearer");
 
             var request = new RestRequest("https://api.spotify.com/v1/browse/new-releases", Method.Get);
             request.AddHeader("Accept", "application/json");
